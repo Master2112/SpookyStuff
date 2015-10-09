@@ -2,8 +2,12 @@
 {
     public enum TraumaTypes
     {
-        Meh,
-        Spooky,
-        Ded
+        BeetjeEng,
+        BangVoorHetDonker,
+        MoeilijkSlapen,
+        DagenNietSlapen,
+        WekenNietSlapen,
+        NooitMeerSlapen,
+        Getraumatiseerd
     }
 }
