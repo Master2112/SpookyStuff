@@ -13,7 +13,7 @@ namespace SpookyStuff.Models
         [Required] public string Name { get; set; }
         public int SuppliesId { get; set; }
 
-        public virtual Supplies SuppliesNeeded
+        public virtual SupplyList SuppliesNeeded
         {
             get
             {
@@ -27,6 +27,6 @@ namespace SpookyStuff.Models
             }
         }
 
-        private Supplies suppliesNeeded { get; set; }
+        private SupplyList suppliesNeeded { get; set; }
     }
 }
