@@ -14,5 +14,6 @@ namespace SpookyStuff.Models
         public string Description { get; set; }
         public TraumaTypes Type { get; set; }
         public int TraumaIntensity { get; set; }
+        public float Price { get; set; }
     }
 }
